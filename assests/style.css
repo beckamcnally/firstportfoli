@@ -4,5 +4,53 @@
 }
 
 body {
-    background-color: #6e136e;
+    background: linear-gradient(#ac189e, #62eb53);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-project {
+    display: inline-block;
+}
+
+header {
+    padding: 40px;
+}
+.section-title{
+    padding: 5px;
+}
+
+main {
+    text-align: center;
+    transition: 1s;
+}
+
+nav {
+    text-align: right;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.project-container {
+    border: 5px dotted #dfe6f2;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 480px) {
+
 }

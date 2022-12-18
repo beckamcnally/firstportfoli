@@ -54,6 +54,10 @@ a {
     text-decoration: none;
 }
 
+.about-par {
+    text-align: justify;
+}
+
 .main-project {
     display: inline-block;
 } 
@@ -94,6 +98,16 @@ main {
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 40px;
+}
+
+#contact li {
+    padding: 20px;
+    background-color: rgb(33, 236, 155);
+    margin: 20px;
+}
+
+#contact {
+    margin: 30px;
 }
 
 @media screen and (max-width: 992px) {

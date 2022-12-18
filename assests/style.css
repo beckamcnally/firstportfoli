@@ -27,44 +27,15 @@ h1 {
 }
 
 nav {
-    text-align: right;
+    display: flex;
+    justify-content: end;
     text-decoration: none;
-    font-size: 20px; 
+    font-size: 20px;   
 }
 
 li {
     display: inline;
     margin-right: 5px;
-}
-
-.section-title{
-    padding: 5px;
-    font-size: 30px;
-}
-
-h3 {
-    font-size: 25px;
-}
-
-a p {
-    font-size: 20px;
-}
-
-a {
-    text-decoration: none;
-}
-
-.about-par {
-    text-align: justify;
-}
-
-.main-project {
-    display: inline-block;
-} 
-
-main {
-    text-align: center;
-    transition: 1s;
 }
 
 .navlink:link   {
@@ -83,6 +54,43 @@ main {
     color: black;
 }
 
+.section-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    position: absolute;
+    font-size: 25px;
+    top:0;
+    left: 5px;
+    border-radius: 20px;
+    background-color: rgba(125, 125, 249, 0.589);
+    color: #3c2152;
+}
+/* tells the h3 position what to be relative to*/
+.main-project, .project-container {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-project {
+    display: inline-block;
+} 
+
+main {
+    text-align: center;
+    transition: 1s;
+}
+
+#dogcat {
+    padding-top: 80px;
+}
+
+
 .projects {
     display: flex;
     justify-content: row;
@@ -91,8 +99,14 @@ main {
       
 }
 .project-container {
-    flex-basis: 100px;
+    display: flex;
+    justify-content: center;
+    flex-basis: 130px;
     flex-wrap: wrap;
+}
+
+figcaption, .about-par {
+    text-align: justify;
 }
 
 .project-container, .main-project, .about-par {
@@ -104,10 +118,10 @@ main {
 
 
 .about-par, .projects {
-    text-indent: 3%;
+    text-indent: 1%;
     margin-left: 80px;
     margin-right: 80px;
-    background-color: red; 
+     
 }
 
 #contact li {
@@ -120,14 +134,56 @@ main {
     margin: 30px;
 }
 
+@media  screen and (max-width: 1500px) {
+     .main-project img {
+        width: 1000px;
+    }
+}
+
 @media screen and (max-width: 992px) {
+    .main-project img {
+        width: 800px;
+    }
 
 }
 
 @media screen and (max-width: 768px) {
+    .main-project img {
+        width: 600px;
+    }
+
+    .main-project {
+        padding: 10px;
+    }
+
+    .project-container {
+        justify-content: column;
+        align-items: center;
+    }
 
 }
 @media screen and (max-width: 480px) {
-    .project-container {
-        flex-basis: 100px;
-}
+    .main-project img {
+        width: 400px;
+    }
+
+    .main-project {
+        width: 420px;
+    }
+    .about-par {
+        margin:auto;
+    }
+
+    #contact {
+        background-color: hotpink;
+        padding: 30px; 
+        margin: 0;
+    }
+
+    #contact li {
+        display: block;
+        border-radius: 10px;
+    }
+
+
+} 

@@ -15,6 +15,20 @@ body {
 header {
     padding: 40px;
 }
+
+h1 {
+    font-size: 50px;
+}
+
+.profile-pic {
+    border-radius: 80px;
+    width: 80px;
+    height: 80px;
+}
+.name-pic {
+    display: flex;
+}
+
 .section-title{
     padding: 5px;
 }
@@ -27,14 +41,32 @@ main {
 nav {
     text-align: right;
     text-decoration: none;
+    font-size: 20px;
+    
 }
 
 li {
     display: inline;
+    margin-right: 5px;
 }
 
-a {
+.navlink:link   {
     text-decoration: none;
+    
+}
+.navlink:link {
+    color: hotpink;
+}
+
+.navlink:hover {
+    background-color: #62eb53;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+}
+
+.pic-title {
+    
 }
 
 .projects {
@@ -44,11 +76,11 @@ a {
     justify-content: space-evenly;
 }
 
-.project-container {
+.project-container, .main-project {
     border: 5px dotted #dfe6f2;
     padding: 10px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 480px) {

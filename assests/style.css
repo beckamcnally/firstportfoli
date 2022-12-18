@@ -8,10 +8,6 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.main-project {
-    display: inline-block;
-}
-
 header {
     padding: 40px;
 }
@@ -20,29 +16,20 @@ h1 {
     font-size: 50px;
 }
 
-.profile-pic {
-    border-radius: 80px;
-    width: 80px;
-    height: 80px;
-}
-.name-pic {
+.name-pic-container {
     display: flex;
 }
 
-.section-title{
-    padding: 5px;
-}
-
-main {
-    text-align: center;
-    transition: 1s;
+.profile-pic {
+    border-radius: 80px;
+    width: 120px;
+    height: 120px;
 }
 
 nav {
     text-align: right;
     text-decoration: none;
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
 
 li {
@@ -50,24 +37,47 @@ li {
     margin-right: 5px;
 }
 
+.section-title{
+    padding: 5px;
+    font-size: 30px;
+}
+
+.main-project {
+    display: inline-block;
+} 
+
+
+
+
+
+
+
+
+main {
+    text-align: center;
+    transition: 1s;
+}
+
+
+
+
+
 .navlink:link   {
     text-decoration: none;
     
 }
 .navlink:link {
-    color: hotpink;
+    color: rgb(248, 3, 125);
 }
 
 .navlink:hover {
-    background-color: #62eb53;
+    background-color: #f48139;
     border-radius: 5px;
     padding: 10px;
     color: black;
 }
 
-.pic-title {
-    
-}
+
 
 .projects {
     display: flex;
@@ -83,6 +93,13 @@ li {
     margin-bottom: 40px;
 }
 
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
 @media screen and (max-width: 480px) {
 
 }

@@ -42,16 +42,21 @@ li {
     font-size: 30px;
 }
 
+h3 {
+    font-size: 25px;
+}
+
+a p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .main-project {
     display: inline-block;
 } 
-
-
-
-
-
-
-
 
 main {
     text-align: center;
@@ -59,14 +64,12 @@ main {
 }
 
 
-
-
-
 .navlink:link   {
     text-decoration: none;
-    
+    color: rgb(248, 3, 125);
 }
-.navlink:link {
+
+.navlink:visited {
     color: rgb(248, 3, 125);
 }
 

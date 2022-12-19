@@ -8,14 +8,6 @@ This site is created and maintained to highlight projects that I am proud of.
 
 ![Site Landing Page](./images/portfolio.gif)
 
-
-## Table of Contents 
-
-* [Technology Used] (#technology-used)
-* [Learning Points](#learning-points)
-* [Author Info](#author-info)
-
-
 ## Technology Used
 
 | Technology Used         | Resource URL           | 

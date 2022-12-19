@@ -1,3 +1,7 @@
+:root {
+    --button-color: #f48139; 
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -48,7 +52,7 @@ li {
 }
 
 .navlink:hover {
-    background-color: #f48139;
+    background-color: var(--button-color);
     border-radius: 5px;
     padding: 10px;
     color: black;
@@ -86,14 +90,14 @@ main {
     transition: 1s;
 }
 
-#dogcat {
+/* targets all project containers except the last one */
+.project-container:not(:last-child) {
     padding-top: 80px;
 }
 
 
 .projects {
     display: flex;
-    justify-content: row;
     flex-wrap: wrap;
     justify-content: space-around;
       
@@ -126,7 +130,7 @@ figcaption, .about-par {
 
 #contact li {
     padding: 20px;
-    background-color: rgb(33, 236, 155);
+    background-color: var(--button-color);
     margin: 20px;
 }
 
@@ -134,22 +138,34 @@ figcaption, .about-par {
     margin: 30px;
 }
 
+footer {
+    text-align: center;
+    font-family: Luminari, fantasy;
+}
+
 @media  screen and (max-width: 1500px) {
      .main-project img {
-        width: 1000px;
+        width: 900px;
     }
+
+    .about-par, .projects {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
 }
 
 @media screen and (max-width: 992px) {
     .main-project img {
         width: 800px;
+        padding: 20px;
     }
 
 }
 
 @media screen and (max-width: 768px) {
     .main-project img {
-        width: 600px;
+        width: 400px;
     }
 
     .main-project {
@@ -159,6 +175,17 @@ figcaption, .about-par {
     .project-container {
         justify-content: column;
         align-items: center;
+    }
+    
+    #contact {
+        background-color: hotpink;
+        padding: 30px; 
+        margin: 0;
+    }
+
+    #contact li {
+        display: block;
+        border-radius: 10px;
     }
 
 }
@@ -173,17 +200,5 @@ figcaption, .about-par {
     .about-par {
         margin:auto;
     }
-
-    #contact {
-        background-color: hotpink;
-        padding: 30px; 
-        margin: 0;
-    }
-
-    #contact li {
-        display: block;
-        border-radius: 10px;
-    }
-
 
 } 

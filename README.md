@@ -11,7 +11,7 @@ This site is created and maintained to highlight projects that I am proud of.
 
 ## Table of Contents 
 
-* [TechnologyUsed] (#technology-used)
+* [Technology Used] (#technology-used)
 * [Learning Points](#learning-points)
 * [Author Info](#author-info)
 

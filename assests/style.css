@@ -95,13 +95,13 @@ main {
     padding-top: 80px;
 }
 
-
 .projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
       
 }
+
 .project-container {
     display: flex;
     justify-content: center;
@@ -120,12 +120,16 @@ figcaption, .about-par {
     margin-bottom: 40px;
 }
 
-
 .about-par, .projects {
     text-indent: 1%;
     margin-left: 80px;
-    margin-right: 80px;
-     
+    margin-right: 80px;  
+}
+
+.main-project:hover,
+.project-container:hover {
+    cursor: pointer;
+    background-color: cadetblue;
 }
 
 #contact li {

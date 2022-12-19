@@ -1,16 +1,40 @@
-### Hi there 👋
+# Becka McNally Portfolio 
+|    
 
-<!--
-**beckamcnally/beckamcnally** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Description 
 
-Here are some ideas to get you started:
+[Visit the Deployed Site](https://beckamcnally.github.io/beckamcnally/)
+This site is created and maintained to highlight projects that I am proud of. 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![Site Landing Page](./images/portfolio.gif)
+
+
+## Table of Contents 
+
+* [Technology Used] (#technology-used)
+* [Learning Points](#learning-points)
+* [Author Info](#author-info)
+
+
+## Technology Used 
+
+| Technology Used         | Resource URL           | 
+| ------------- |:-------------:| 
+| HTML    | [https://www.w3schools.com/html/html_basic.asp](https://www.w3schools.com/html/html_basic.asp) | 
+| CSS     | [https://www.w3schools.com/css/default.asp](https://www.w3schools.com/css/default.asp)      |   
+| Git | [https://git-scm.com/](https://git-scm.com/)     
+
+## Learning Points 
+
+* Flexbox
+* CSS
+* HTML
+
+## Author Info
+
+### Becka McNally 
+
+* [Portfolio](https://beckamcnally.github.io/beckamcnally/)
+* [LinkedIn](https://www.linkedin.com/in/becka-mcnally-21520670)
+* [Github](https://github.com/beckamcnally)
+```

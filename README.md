@@ -1,5 +1,5 @@
 # Becka McNally Portfolio 
-|    
+  
 
 ## Description 
 
@@ -11,12 +11,12 @@ This site is created and maintained to highlight projects that I am proud of.
 
 ## Table of Contents 
 
-* [Technology Used] (#technology-used)
+* [TechnologyUsed] (#technology-used)
 * [Learning Points](#learning-points)
 * [Author Info](#author-info)
 
 
-## Technology Used 
+## Technology Used
 
 | Technology Used         | Resource URL           | 
 | ------------- |:-------------:| 
